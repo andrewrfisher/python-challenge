@@ -14,7 +14,7 @@ max_month_decrease = 0
 
 
 #csv path for file
-csvpath = os.path.join("..", "Resources", "budget_data.csv")
+csvpath = os.path.join("Resources", "budget_data.csv")
 
 #open and read
 with open (csvpath, newline ='') as csvfile:
