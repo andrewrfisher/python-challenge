@@ -9,7 +9,7 @@ li_votes = 0
 otooley_votes = 0
 
 #open and read files
-cvspath = os.path.join('..', 'Resources', 'election_data.csv')
+cvspath = os.path.join('Resources', 'election_data.csv')
 
 with open (cvspath, newline='') as csvfile:
     csvreader =csv.reader(csvfile, delimiter = ",")
